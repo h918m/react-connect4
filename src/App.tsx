@@ -384,22 +384,4 @@ function WinnerOverlay({
   )
 }
 
-function ResetOverlay({ }: // starter,
-  // onClick
-  {
-    // starter: Player
-    // onClick: (player: Player) => void
-  }) {
-  return (
-    <div className="Overlay">
-      <div className="Modal">
-        <h1>
-          <span>Select terms</span>
-        </h1>
-        <button>Start a new match</button>
-      </div>
-    </div>
-  )
-}
-
 export default App
